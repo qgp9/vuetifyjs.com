@@ -1,27 +1,27 @@
 export default {
-  header: 'Badge',
-  headerText: 'The `v-badge` component can wrap any type of content to highlight information to a user or to just draw attention to a specific element.',
+  header: '배지 (Badge)',
+  headerText: '`v-badge` 컴포넌트는 특정 정보를 부각시키거나(highlight) 특정 요소에 대해 이목을 끌기 위해 사용되며 어떤 종류의 컨텐츠에도 사용할 수 있습니다.',
   components: ['v-badge'],
   examples: [{
     character: {
-      header: 'Character',
-      desc: 'Any element can be used with a badge.'
+      header: '글자 (Character)',
+      desc: '어떤 요소에든 배지를 사용할 수 있습니다.'
     },
     overlap: {
-      header: 'Overlap',
-      desc: 'The badge will overlap its content when using the `overlap` prop'
+      header: '중첩 (Overlap)',
+      desc: '`overlap` prop을 사용하면 배지는 컨텐츠 위에 중첩됩니다.'
     },
     inline: {
-      header: 'Inline',
-      desc: 'Badges can also be placed inline with text.'
+      header: '인라인 (Inline)',
+      desc: '배지는 텍스트와 같은 줄 위에(inline) 놓일 수 있습니다.'
     },
     icon: {
-      header: 'Icon',
-      desc: 'The badge can use all of the currently supported icon sets.'
+      header: '아이콘 (Icon)',
+      desc: '배지는 적용된 모든 아이콘 셋을 사용할 수 있습니다.'
     },
     visibility: {
-      header: 'Visibility',
-      desc: 'The visibility of badges can be controlled using `v-model`.'
+      header: '표시여부 (Visibility)',
+      desc: '배지의 표시여부는 `v-model` 로 조절할 수 있습니다.'
     }
   }],
   props: {

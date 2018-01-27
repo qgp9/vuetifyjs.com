@@ -1,3 +1,3 @@
 export default {
-  header: 'Theme generator'
+  header: '테마 생성기 (Theme generator)'
 }

@@ -1,21 +1,21 @@
 export default {
-  header: 'Bottom sheet',
-  headerText: 'The bottom sheet is a modified `v-dialog` that slides from the bottom of the screen, similar to a `v-bottom-nav`. Whereas a bottom navigation component is for buttons and specific application level actions, a bottom sheet can contain anything.',
+  header: '바닥 시트 (Bottom sheet)',
+  headerText: '바닥시트(bottom sheet)는 스크린 바닥으로 부터의 슬라이드를 추가한  `v-dialog` 의 변형이며 `v-bottom-nav`와 유사합니다. 바닥 네비게이션 (bottom navigation)이 버튼이나 어플리케이션 레벨 동작을 위한 컴포넌트라면, 바닥시트는 무엇이든 포함할 수 있습니다.',
   components: ['v-bottom-sheet'],
   examples: [{
     standard: {
-      header: 'Standard display',
-      desc: 'Here we display an example list of actions that could be present in an application.'
+      header: '표준 디스플레이 (Standard display)',
+      desc: '어플리케이션에서 사용할 수 있는 동작(action)의 목록 예제입니다.'
     },
     inset: {
-      header: 'Inset bottom sheets',
-      desc: 'Bottom sheets can be inset, reducing their maximum width on desktop to 70%. This can be further reduced manually using the `width` prop. We also showcase dynamic class binding using the Vuetify breakpoint object.'
+      header: '삽입형 바닥시트 (Inset bottom sheets)',
+      desc: '바닥시트는 최대넓이를 전체 화면의 70%로 줄여서 삽입될 수 있습니다. `width` prop 를 사용하여 수동으로 너비를 추가 조정할 수 있습니다. We also showcase dynamic class binding using the Vuetify breakpoint object.'
     }
   }],
   props: {
-    disabled: 'Disables the ability to open the dialog',
-    inset: 'Reduces the dialog content maximum width to 70%',
+    disabled: '대화창(dialog)이 열릴 수 없도록 설정',
+    inset: '대화창(dialog) 컨텐츠의 최대 너비를 70%로 줄임',
     lazy: 'Mixins.Bootable.props.lazy',
-    maxWidth: 'Specify the maximum width of the sheet\'s container'
+    maxWidth: '시트의 컨테이너의 최대 너비를 설정'
   }
 }

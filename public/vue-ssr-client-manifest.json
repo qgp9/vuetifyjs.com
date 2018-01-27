@@ -1,30 +1,30 @@
 {
   "publicPath": "/public/",
   "all": [
-    "examples.3ac63932152ae9a1e57c.js",
+    "examples.71b682330035d03561f1.js",
     "img/materialdesignicons-webfont.3efec83.eot",
     "img/materialdesignicons-webfont.6473d7d.woff",
     "img/materialdesignicons-webfont.1eccbc4.ttf",
     "img/materialdesignicons-webfont.5dfd79f.svg",
-    "routes.c8c910dbdeff5fc2e6c8.js",
+    "routes.e7f3be5600317fd260dc.js",
     "img/materialdesignicons-webfont.4b13596.woff2",
-    "examples-source.8e13403b151d7da3fc75.js",
-    "vendor.c241949c321e1bde56a0.js",
-    "app.411d5d8a3bf587260dc7.js",
-    "lang-[request].d5af9a3853833c6e519f.js",
-    "manifest.d402bb34286edcbb1ade.js",
-    "common.411d5d8a3bf587260dc7.css"
+    "examples-source.e6ee8d7aa2fde60abc34.js",
+    "vendor.f66f9be4f0772f7c567a.js",
+    "app.05b541b697aaef32d6bd.js",
+    "lang-[request].8afe550c751d062cb34c.js",
+    "manifest.c8253db80dfd9dfafe6e.js",
+    "common.05b541b697aaef32d6bd.css"
   ],
   "initial": [
-    "manifest.d402bb34286edcbb1ade.js",
-    "vendor.c241949c321e1bde56a0.js",
-    "app.411d5d8a3bf587260dc7.js"
+    "manifest.c8253db80dfd9dfafe6e.js",
+    "vendor.f66f9be4f0772f7c567a.js",
+    "app.05b541b697aaef32d6bd.js"
   ],
   "async": [
-    "examples.3ac63932152ae9a1e57c.js",
-    "routes.c8c910dbdeff5fc2e6c8.js",
-    "examples-source.8e13403b151d7da3fc75.js",
-    "lang-[request].d5af9a3853833c6e519f.js"
+    "examples.71b682330035d03561f1.js",
+    "routes.e7f3be5600317fd260dc.js",
+    "examples-source.e6ee8d7aa2fde60abc34.js",
+    "lang-[request].8afe550c751d062cb34c.js"
   ],
   "modules": {
     "10393582": [
@@ -819,15 +819,6 @@
       3,
       4
     ],
-    "4939e2bf": [
-      8,
-      1,
-      1,
-      6,
-      2,
-      3,
-      4
-    ],
     "6869d5e4": [
       8,
       1,
@@ -928,6 +919,15 @@
       4
     ],
     "0d2c6254": [
+      8,
+      1,
+      1,
+      6,
+      2,
+      3,
+      4
+    ],
+    "4939e2bf": [
       8,
       1,
       1,
@@ -2102,15 +2102,6 @@
       4
     ],
     "24bf4e52": [
-      8,
-      1,
-      1,
-      6,
-      2,
-      3,
-      4
-    ],
-    "51f2b84c": [
       8,
       1,
       1,
@@ -5952,6 +5943,15 @@
       3,
       4
     ],
+    "51f2b84c": [
+      8,
+      1,
+      1,
+      6,
+      2,
+      3,
+      4
+    ],
     "0edb4240": [
       8,
       1,
@@ -6377,7 +6377,16 @@
       9,
       12
     ],
-    "677be18a": [
+    "ff1359c4": [
+      8,
+      1,
+      1,
+      6,
+      2,
+      3,
+      4
+    ],
+    "1cc5a957": [
       8,
       1,
       1,

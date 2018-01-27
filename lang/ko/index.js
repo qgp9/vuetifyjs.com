@@ -1,7 +1,7 @@
 // Pages
-import Vuetify from './vuetify'
+// TODO: import Vuetify from './vuetify'
 import GettingStarted from './getting-started'
-import Guides from './guides'
+// TODO: import Guides from './guides'
 import Layout from './layout'
 import Style from './style'
 import Motion from './motion'
@@ -13,23 +13,23 @@ import Generic from './generic'
 import Components from './components'
 
 // Directives
-import Directives from './directives'
+// TODO: import Directives from './directives'
 
 // Mixins
-import Mixins from './mixins'
+// TODO: import Mixins from './mixins'
 
-import meta from './meta'
+// TODO: import meta from './meta'
 
 export default {
   Components,
-  Directives,
+  // TODO:   Directives,
   Generic,
   GettingStarted,
-  Guides,
+  // TODO:   Guides,
   Layout,
-  Mixins,
+  // TODO:   Mixins,
   Motion,
-  Style,
-  Vuetify,
-  meta
+  Style
+  // TODO:   Vuetify,
+  // TODO:   meta
 }

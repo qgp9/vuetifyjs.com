@@ -1,7 +1,7 @@
 export default {
   '': {
     'h1': '',
-    'title': 'Vue.js Material Component Framework',
+    'title': 'Vue.js Material 컴포넌트 프레임웤',
     'description': 'Vuetify.js is a reusable semantic component framework for Vue.js. It aims to provide clean, semantic and reusable components.',
     'keywords': 'vue, vue 2, vue js, vue.js, material design, vue components, material design components, vuetify, vuetify.js'
   },
@@ -12,8 +12,8 @@ export default {
     'keywords': ''
   },
   'getting-started/quick-start': {
-    'h1': 'Quick Start',
-    'title': 'Quick Start',
+    'h1': '빠른 시작',
+    'title': '빠른 시작',
     'description': 'Get started with Vue and Vuetify in no time.',
     'keywords': 'quick start, vuetify templates, get started'
   },
@@ -60,13 +60,13 @@ export default {
     'keywords': 'motion, transitions'
   },
   'style/colors': {
-    'h1': 'Colors',
+    'h1': '색상 (Colors)',
     'title': 'Material color palette',
     'description': 'Easily apply any color from the material design palette.',
     'keywords': 'colors'
   },
   'style/theme': {
-    'h1': 'Theme',
+    'h1': '테마 (Theme)',
     'title': 'Application theming',
     'description': 'Setup your custom application theme by changing a few variables.',
     'keywords': 'themes'
@@ -85,7 +85,7 @@ export default {
   },
   'layout/pre-defined': {
     'h1': 'Pre-defined',
-    'title': 'Application layouts',
+    'title': '어플리케이션 레이아웃',
     'description': 'Select from a multitude of official material design layouts.',
     'keywords': 'pre-defined layouts, layouts, application layout, material design layouts'
   },

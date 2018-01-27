@@ -1,8 +1,8 @@
 export default {
   announcementBanner: 'Aww yisss, this is an exciting announcement! Or maybe its an advertisement!',
   heading1: 'Vuetify',
-  heading1cont: 'Material Component Framework',
-  getStarted: 'Get Started',
+  heading1cont: '메테리얼(Material) 컴포넌트 프레임웤',
+  getStarted: '시작하기',
   features: [
     {
       img: '/static/doc-images/feature1.svg',

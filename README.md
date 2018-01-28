@@ -3,7 +3,7 @@
 </p>
 
 ## Vuetify 문서 한글 번역 프로젝트
-<p>T <a href="https://vuetifyjs.com" target="_blank">Vuetify</a> 사이트/문서의 한글 번역 프로젝트입니다.</p>
+<a href="https://vuetifyjs.com" target="_blank">Vuetify</a> 사이트/문서의 한글 번역 프로젝트입니다.
 
 * Vuetify 사이트 : https://vuetifyjs.com
 * Vuetify 사이트 리포 : https://github.com/vuetifyjs/vuetifyjs.com.git

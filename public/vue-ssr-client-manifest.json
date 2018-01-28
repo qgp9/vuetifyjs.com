@@ -10,15 +10,15 @@
     "img/materialdesignicons-webfont.4b13596.woff2",
     "examples-source.382f8d6b0754c1895e0a.js",
     "vendor.0d010d32ad91ad7070d7.js",
-    "app.c27fe22578e64d07841d.js",
+    "app.3e84692d3c6f916edcb0.js",
     "lang-[request].cb2213a099d10338c882.js",
-    "manifest.5de53c5833fb0a414b35.js",
-    "common.c27fe22578e64d07841d.css"
+    "manifest.20fd3855511e6333f995.js",
+    "common.3e84692d3c6f916edcb0.css"
   ],
   "initial": [
-    "manifest.5de53c5833fb0a414b35.js",
+    "manifest.20fd3855511e6333f995.js",
     "vendor.0d010d32ad91ad7070d7.js",
-    "app.c27fe22578e64d07841d.js"
+    "app.3e84692d3c6f916edcb0.js"
   ],
   "async": [
     "examples.deacc7f01f47b27ab4d8.js",

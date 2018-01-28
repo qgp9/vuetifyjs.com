@@ -1,30 +1,30 @@
 {
   "publicPath": "/public/",
   "all": [
-    "examples.56aad2971450ba4342e2.js",
+    "examples.9de266070dfbd5883d3c.js",
     "img/materialdesignicons-webfont.3efec83.eot",
     "img/materialdesignicons-webfont.6473d7d.woff",
     "img/materialdesignicons-webfont.1eccbc4.ttf",
     "img/materialdesignicons-webfont.5dfd79f.svg",
-    "routes.b95c2d3637597224dac2.js",
+    "routes.bfb919d78a99224d8933.js",
     "img/materialdesignicons-webfont.4b13596.woff2",
-    "examples-source.8d91eb1617e939af850a.js",
-    "vendor.18d81053bdebfc0c0bcd.js",
-    "app.d6b76a2e2d5a5d3eded1.js",
-    "lang-[request].ddc1a9aa963ae32fd635.js",
-    "manifest.fb3dfbac343dab7ce339.js",
-    "common.d6b76a2e2d5a5d3eded1.css"
+    "examples-source.c58f4fa029f077d3f9c4.js",
+    "vendor.66d7983e193e536391c7.js",
+    "app.75e52aaca14d3e16e455.js",
+    "lang-[request].b6d7359e457970f74d3e.js",
+    "manifest.6372cd3c8a9824e53c5e.js",
+    "common.75e52aaca14d3e16e455.css"
   ],
   "initial": [
-    "manifest.fb3dfbac343dab7ce339.js",
-    "vendor.18d81053bdebfc0c0bcd.js",
-    "app.d6b76a2e2d5a5d3eded1.js"
+    "manifest.6372cd3c8a9824e53c5e.js",
+    "vendor.66d7983e193e536391c7.js",
+    "app.75e52aaca14d3e16e455.js"
   ],
   "async": [
-    "examples.56aad2971450ba4342e2.js",
-    "routes.b95c2d3637597224dac2.js",
-    "examples-source.8d91eb1617e939af850a.js",
-    "lang-[request].ddc1a9aa963ae32fd635.js"
+    "examples.9de266070dfbd5883d3c.js",
+    "routes.bfb919d78a99224d8933.js",
+    "examples-source.c58f4fa029f077d3f9c4.js",
+    "lang-[request].b6d7359e457970f74d3e.js"
   ],
   "modules": {
     "10216817": [
@@ -3518,10 +3518,6 @@
       9,
       12
     ],
-    "23166c01": [
-      9,
-      12
-    ],
     "1f1faf9c": [
       9,
       12
@@ -3535,10 +3531,6 @@
       12
     ],
     "23dd24f1": [
-      9,
-      12
-    ],
-    "27273c21": [
       9,
       12
     ],
@@ -7332,7 +7324,7 @@
       9,
       12
     ],
-    "a6ec01da": [
+    "223d4b30": [
       9,
       12
     ],
@@ -7368,7 +7360,7 @@
       9,
       12
     ],
-    "019deaa8": [
+    "1705f8fd": [
       9,
       12
     ],
@@ -7380,7 +7372,7 @@
       9,
       12
     ],
-    "09b37476": [
+    "38351a66": [
       9,
       12
     ],
@@ -10248,7 +10240,7 @@
     "469bccc3": [
       5
     ],
-    "f54e0e1e": [
+    "c0c83146": [
       5
     ],
     "224dd2fd": [

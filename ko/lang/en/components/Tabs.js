@@ -1,6 +1,6 @@
 export default {
-  header: 'Tab',
-  headerText: 'The `v-tabs` component is used for hiding content behind a selectable item. This can also be used as a pseudo-navigation for a page, where the tabs are links and the tab-items are the content.',
+  header: '탭 (Tab)',
+  headerText: '`v-tabs` 컴포넌트는 선택 가능한 아이탬의 뒤로 컨텐츠를 숨기는데 쓰입니다, This can also be used as a pseudo-navigation for a page, where the tabs are links and the tab-items are the content.',
   components: [
     'v-tabs',
     'v-tab',

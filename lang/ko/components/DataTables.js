@@ -20,19 +20,19 @@ export default {
       desc: '만약 각 헤더 셀(header cells)에 공용 마크업이나 이펙트를 적용하고 싶으면 `headerCell` 슬롯을 사용합니다. 이 예제는 각 헤더에 툴팁을 적용합니다.'
     },
     progress: {
-      header: 'Slot: progress',
+      header: '슬롯: progress',
       desc: 'There is also a `progress` slot for when you want to customize the display for the data table\'s `loading` state.  By default this is an `indeterminate` `v-progress-linear`'
     },
     footer: {
-      header: 'Slot: footer',
+      header: '슬롯: footer',
       desc: 'There is also a `footer` slot for when you want to add some extra functionality to tables, for example per column filtering or search.'
     },
     expand: {
-      header: 'Slot: expand',
+      header: '슬롯: expand',
       desc: 'The `v-data-table` component also supports expandable rows using the `expand` slot. You can use the prop `expand` to prevent expanded rows from closing when clicking on another row.'
     },
     pageText: {
-      header: 'Slot: page-text',
+      header: '슬롯: page-text',
       desc: 'You can customize the page text displaying the range and total items by using the `page-text` slot.'
     },
     select: {

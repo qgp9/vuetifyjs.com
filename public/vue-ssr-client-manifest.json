@@ -1,30 +1,30 @@
 {
   "publicPath": "/public/",
   "all": [
-    "examples.904ff864a58aa17782a7.js",
+    "examples.1d83e7a9f2059fb327e6.js",
     "img/materialdesignicons-webfont.3efec83.eot",
     "img/materialdesignicons-webfont.6473d7d.woff",
     "img/materialdesignicons-webfont.1eccbc4.ttf",
     "img/materialdesignicons-webfont.5dfd79f.svg",
-    "routes.8878244fca3ce4768ef8.js",
+    "routes.a1786ed105faaf2aefee.js",
     "img/materialdesignicons-webfont.4b13596.woff2",
-    "examples-source.67edca5b0409ef0af240.js",
-    "vendor.766e861529c40c69a23f.js",
-    "app.dad4c7c30fad497e1cd2.js",
-    "lang-[request].04e2e8ee4b0395906fa6.js",
-    "manifest.2840dd53248ed515d798.js",
-    "common.dad4c7c30fad497e1cd2.css"
+    "examples-source.f6f224ad2ea3deedcd1b.js",
+    "vendor.3e2c93c32f6914503ade.js",
+    "app.a0363822ee19edcf27bc.js",
+    "lang-[request].9238352baa49bcf8de6a.js",
+    "manifest.a2e4d29d8f9688887f7f.js",
+    "common.a0363822ee19edcf27bc.css"
   ],
   "initial": [
-    "manifest.2840dd53248ed515d798.js",
-    "vendor.766e861529c40c69a23f.js",
-    "app.dad4c7c30fad497e1cd2.js"
+    "manifest.a2e4d29d8f9688887f7f.js",
+    "vendor.3e2c93c32f6914503ade.js",
+    "app.a0363822ee19edcf27bc.js"
   ],
   "async": [
-    "examples.904ff864a58aa17782a7.js",
-    "routes.8878244fca3ce4768ef8.js",
-    "examples-source.67edca5b0409ef0af240.js",
-    "lang-[request].04e2e8ee4b0395906fa6.js"
+    "examples.1d83e7a9f2059fb327e6.js",
+    "routes.a1786ed105faaf2aefee.js",
+    "examples-source.f6f224ad2ea3deedcd1b.js",
+    "lang-[request].9238352baa49bcf8de6a.js"
   ],
   "modules": {
     "10216817": [
@@ -3397,6 +3397,10 @@
       12
     ],
     "ca87b3dc": [
+      9,
+      12
+    ],
+    "8d3a78ec": [
       9,
       12
     ],

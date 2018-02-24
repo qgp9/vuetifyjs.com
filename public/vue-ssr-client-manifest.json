@@ -1,30 +1,30 @@
 {
   "publicPath": "/public/",
   "all": [
-    "examples.d7ed97b086b1a7a8cdd2.js",
+    "examples.7643ddf04d196008cb4c.js",
     "img/materialdesignicons-webfont.3efec83.eot",
     "img/materialdesignicons-webfont.6473d7d.woff",
     "img/materialdesignicons-webfont.1eccbc4.ttf",
     "img/materialdesignicons-webfont.5dfd79f.svg",
-    "routes.ebe5df416ac7c556df4f.js",
+    "routes.35432deea6952453afe1.js",
     "img/materialdesignicons-webfont.4b13596.woff2",
-    "examples-source.a3844c5663f07eed2408.js",
-    "vendor.2cf9dd3947647807af01.js",
-    "app.3e0e78cc5c48bf917737.js",
-    "lang-[request].8afe550c751d062cb34c.js",
-    "manifest.d860f80449a834b6b4d9.js",
-    "common.3e0e78cc5c48bf917737.css"
+    "examples-source.687ec6364d4c3fee9843.js",
+    "vendor.112822676e9b826015ee.js",
+    "app.a8856e661e74a7c8589e.js",
+    "lang-[request].070939faeb65061adcc7.js",
+    "manifest.1bf75f59da63924b609f.js",
+    "common.a8856e661e74a7c8589e.css"
   ],
   "initial": [
-    "manifest.d860f80449a834b6b4d9.js",
-    "vendor.2cf9dd3947647807af01.js",
-    "app.3e0e78cc5c48bf917737.js"
+    "manifest.1bf75f59da63924b609f.js",
+    "vendor.112822676e9b826015ee.js",
+    "app.a8856e661e74a7c8589e.js"
   ],
   "async": [
-    "examples.d7ed97b086b1a7a8cdd2.js",
-    "routes.ebe5df416ac7c556df4f.js",
-    "examples-source.a3844c5663f07eed2408.js",
-    "lang-[request].8afe550c751d062cb34c.js"
+    "examples.7643ddf04d196008cb4c.js",
+    "routes.35432deea6952453afe1.js",
+    "examples-source.687ec6364d4c3fee9843.js",
+    "lang-[request].070939faeb65061adcc7.js"
   ],
   "modules": {
     "10216817": [
@@ -2403,6 +2403,10 @@
       9,
       12
     ],
+    "5c1fe35e": [
+      9,
+      12
+    ],
     "8e312fe0": [
       9,
       12
@@ -3429,6 +3433,22 @@
       12
     ],
     "76d67b00": [
+      9,
+      12
+    ],
+    "6c1faca6": [
+      9,
+      12
+    ],
+    "0ec7dc2d": [
+      9,
+      12
+    ],
+    "80b7ba0a": [
+      9,
+      12
+    ],
+    "8632c2a4": [
       9,
       12
     ],

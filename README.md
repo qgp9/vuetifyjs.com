@@ -19,6 +19,7 @@ Vuetify에 바로 PR 하거나 이 프로젝트에서 함께 번역한 후 적�
 이 프로젝트에서 함께 번역하시기로 하셨다면
 
 * 번역은 `master` 가 아니라 `ko_dev`에서 하셔야 합니다. PR도 `ko_dev`로 하셔야합니다.
+  * 첨부터 `git clone git@github.com:유져아이디/vuetifyjs.com.git -b ko_dev` 로 받으시면 편합니다.
 * PR 이 머지되면 자동으로 https://vuetify-ko.herokuapp.com/ko 가 업데이트 됩니다.
 * 로컬에서 확인하시면 아래 *로컬에 설치해서 보기* 를 참조하세요
 * Vuetify 의 방침에 따라 (일부라도) 번역되지 않은 파일은 추가하지 않습니다. 따라서 새로운 페이지를 번역할 경우 `local/en` 의 해당 파일을 `local/ko` 디렉토리로 복사하시고 디렉토리 구조에 따라 `index.js` 파일을 수정해야 합니다.

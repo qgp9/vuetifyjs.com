@@ -43,6 +43,10 @@ export default {
       header: '搜索以及无结果时的 no-result 插槽',
       desc: '数据表格还提供了一个 `search` 属性，允许你进行数据筛选。'
     },
+    customIcons: {
+      header: 'Custom icons',
+      desc: 'Previous/next pagination icons and sort icon can be customized with **prev-icon**, **next-icon** and **sort-icon** props.'
+    },
     paginate: {
       header: '外部分页',
       desc: '分页可以通过 `pagination` 属性在外部控制，切记使用时必须应用 `.sync` 修饰符。'
@@ -61,7 +65,7 @@ export default {
     },
     editdialog: {
       header: '行内编辑',
-      desc: '使用 `v-edit-dialog` 组件来进行数据表格的行内编辑。'
+      desc: '使用 `v-edit-dialog` 组件来进行数据表格的行内编辑。 You can block closing the dialog when clicked outside by adding the **persistent** prop.'
     },
     crud: {
       header: 'CRUD 操作',

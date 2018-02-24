@@ -1,24 +1,24 @@
 export default {
   api: 'API',
-  default: 'Default',
-  description: 'Description',
-  examples: 'Examples',
+  default: '디폴트',
+  description: '설명',
+  examples: '예제',
   howItWorks: 'How it works',
-  name: 'Name',
-  openInCodePen: 'Open in Codepen',
-  options: 'Options',
+  name: '이름',
+  openInCodePen: '코드펜에서 열기',
+  options: '옵션',
   props: 'Props',
-  showExample: 'Show Example',
-  slots: 'Slots',
-  supplemental: 'Supplemental',
-  type: 'Type',
+  showExample: '예제 보기',
+  slots: '슬롯',
+  supplemental: '보충',
+  type: '타입',
   toc: [
     {
-      text: 'Introduction',
+      text: '소개',
       href: 'introduction'
     },
     {
-      text: 'Usage',
+      text: '사용법',
       href: 'usage'
     },
     {
@@ -26,18 +26,18 @@ export default {
       href: 'api'
     },
     {
-      text: 'Supplemental',
+      text: '보충',
       href: 'supplemental'
     },
     {
-      text: 'Examples',
+      text: '예제',
       href: 'examples'
     }
   ],
-  usage: 'Usage',
-  parameters: 'Parameters',
-  return: 'Returns',
-  example: 'Example',
+  usage: '사용법',
+  parameters: '파라미터',
+  return: '반환값',
+  example: '예제',
   signature: 'Signature',
-  value: 'Value'
+  value: '값'
 }

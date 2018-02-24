@@ -5,7 +5,7 @@ export default {
   examples: [{
     dateLight: {
       header: 'Выбор даты',
-      desc: 'Ориентация Выбора даты присутствует в двух вариантах: портретная **(по умолчанию)** и альбомная.'
+      desc: 'Ориентация Выбора даты присутствует в двух вариантах: портретная **(по умолчанию)** и альбомная. By default they are emitting `input` event when the day (for date picker) or month (for month picker), but with **reactive** prop they can update the model even after clicking year/month.'
     },
     dateColorable: {
       header: 'Выбор даты - Цвета',
@@ -85,8 +85,8 @@ export default {
       min: 'Minimum allowed date/month',
       max: 'Maximum allowed date/month',
       pickerDate: 'Displayed year/month',
-      appendIcon: 'Устанавливает иконку для кнопки следующего месяца/года',
-      prependIcon: 'Устанавливает иконку для кнопки предыдущий месяц/год',
+      nextIcon: 'Устанавливает иконку для кнопки следующего месяца/года',
+      prevIcon: 'Устанавливает иконку для кнопки предыдущий месяц/год',
       readonly: 'Makes the picker readonly (doesnt\'t allow to select new date or navigate through months/years)',
       scrollable: 'Allows changing displayed month with mouse scroll',
       showCurrent: 'Toggles visibility of the current date/month outline or shows the provided date/month as a current'

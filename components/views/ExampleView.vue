@@ -1,5 +1,8 @@
 <template lang="pug">
-  doc-view(:toc="toc")
+  doc-view(
+    :toc="toc"
+    :id="folder"
+  )
     template(slot-scope="{ namespace }")
       section(v-if="usage")#usage
         section-head(value="Generic.Pages.usage")
@@ -74,17 +77,18 @@
       slot(name="top")
       section(v-if="examples.length > 1")#examples
         section-head(value="Generic.Pages.examples")
-        example(
-          :header="`${example.header}`"
-          :new-in="example.new"
-          :file="`${folder}/${example.file}`"
-          :inverted="example.inverted"
-          :has-inverted="!example.uninverted"
-          :id="`example-${camelCaseToDash(example.file)}`"
-          :key="example.file"
-          :desc="example.desc"
-          v-for="(example, i) in examples.slice(1)"
-        )
+        template(v-for="(example, i) in examples.slice(1)")
+          support-vuetify(v-if="i === 5" :key="i")
+          example(
+            :header="`${example.header}`"
+            :new-in="example.new"
+            :file="`${folder}/${example.file}`"
+            :inverted="example.inverted"
+            :has-inverted="!example.uninverted"
+            :id="`example-${camelCaseToDash(example.file)}`"
+            :key="example.file"
+            :desc="example.desc"
+          )
       section-head {{ $t('Generic.Pages.examples') }}
 
       slot
@@ -134,11 +138,16 @@
           functional: [
             { value: 'name', align: 'left' },
             { value: 'description', align: 'left' }
+          ],
+          options: [
+            { value: 'name', align: 'left', size: 3 },
+            { value: 'default', align: 'left', size: 3 },
+            { value: 'type', align: 'right' }
           ]
         },
         search: null,
         tab: null,
-        tabs: ['props', 'slots', 'scopedSlots', 'params', 'events', 'functions', 'functional']
+        tabs: ['props', 'slots', 'scopedSlots', 'params', 'events', 'functions', 'functional', 'options']
       }
     },
 
@@ -154,10 +163,14 @@
       },
       currentApi () {
         return this.api[this.current] || {
-          params: [],
           props: [],
           slots: [],
-          scopedSlots: []
+          scopedSlots: [],
+          params: [],
+          events: [],
+          funtions: [],
+          functional: [],
+          options: []
         }
       },
       examples () {
@@ -179,12 +192,15 @@
         return `${section}.${component}`
       },
       supplemental () {
-        return this.$te(`${this.namespace}.supplemental`)
-          ? this.$t(`${this.namespace}.supplemental`)
-          : []
+        const namespace = `${this.namespace}.supplemental`
+        return this.$te(namespace)
+          ? this.$t(namespace)
+          : this.$te(namespace, 'en')
+            ? this.$t(namespace, 'en')
+            : []
       },
       toc () {
-        return this.$t(`Generic.Pages.toc`)
+        return this.$t(this.data.toc || `Generic.Pages.toc`)
       },
       usage () {
         return this.examples.slice(0, 1).shift()

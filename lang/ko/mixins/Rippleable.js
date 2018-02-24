@@ -1,5 +1,5 @@
 export default {
   props: {
-    ripple: 'Applies the `v-ripple` directive'
+    ripple: '`v-ripple` 디렉티브를 적용'
   }
 }

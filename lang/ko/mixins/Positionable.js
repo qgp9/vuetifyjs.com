@@ -1,10 +1,10 @@
 export default {
   props: {
-    absolute: 'Position the element absolutely',
-    bottom: 'Align the component towards the bottom',
-    fixed: 'Position the element fixed',
-    left: 'Align the component towards the left',
-    right: 'Align the component towards the right',
-    top: 'Align the content towards the top'
+    absolute: '요소를 절대 위치 시킴',
+    bottom: '컴포넌트를 아랫쪽(bottom)으로 정렬',
+    fixed: '요소의 위치를 고정',
+    left: '요소를 왼쪽으로 정렬',
+    right: '요소를 오른쪽으로 정렬',
+    top: '요소를 위쪽(top)으로 정렬'
   }
 }

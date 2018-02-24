@@ -39,7 +39,7 @@
           |     &lt;v-app&gt;
           |       &lt;v-content&gt;
           |         &lt;v-container&gt;Hello world&lt;/v-container&gt;
-          |       &lt;v-content&gt;
+          |       &lt;/v-content&gt;
           |     &lt;/v-app&gt;
           |   &lt;/div&gt;
           | &nbsp;
@@ -138,10 +138,6 @@
 <style lang="stylus">
   .browser-icon--split
     position: absolute
-
-    // IE  щ（ﾟДﾟщ）
-    top: 8px
-    left: 16px
 
     &:nth-child(1)
       clip: rect(0px 21px 40px 0px)

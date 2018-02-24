@@ -1,33 +1,33 @@
 export default {
-  header: 'Slider',
-  headerText: 'The `v-slider` component is a better visualization of the number input. It is used for gathering numerical user data.',
+  header: '슬라이더 (Slider)',
+  headerText: '`v-slider` 컴포넌트는 숫자 입력을 위한 더 나은 시각화를 제공합니다. 사용의 숫자형 데이터를 수집하기 위해 사용도비니다.',
   components: ['v-slider'],
   examples: [{
     continuous: {
-      header: 'Continuous',
-      desc: 'Continuous sliders should be used when precision is not a concern.'
+      header: '연속적 (Continuous)',
+      desc: '연속적(Continuous) 슬라이더는 정확도가 문제가 되지 않을 때만 사용해야 합니다.'
     },
     discrete: {
-      header: 'Discrete',
-      desc: 'Discrete sliders offer a thumb label that displays the exact current amount. Using the `step` prop you can disallow selecting values outside of steps.'
+      header: '불연속 (Discrete)',
+      desc: '불연속(Discrete) 슬라이더는 정확한 현재 값을 보여주기 위한 작은 레이블(Thumb label)을 제공합니다. `step` prop를 이용하여 step 을 이외의 값을 선택하는 것을 방지할 수 있습니다.'
     },
     icons: {
-      header: 'Icons',
-      desc: 'You can add icons to the slider with the `append-icon` and `prepend-icon` props.'
+      header: '아이콘 (Icons)',
+      desc: '`append-icon`과 `prepend-icon` prop을 이용하여 슬라이더에 아이콘을 추가할 수 있습니다.'
     },
     editableNumericValue: {
-      header: 'With an editable numeric value',
-      desc: 'Sliders can be combined with other components for a better display.'
+      header: '수정가능한 숫자값 (With an editable numeric value)',
+      desc: '슬라이더는 더 낳은 표현을 위해 다른 컴포넌트와 결합될 수 있습니다.'
     },
     customColors: {
-      header: 'Custom colors',
-      desc: 'You can set the colors of the slider using the props `color`, `track-color` and `thumb-color`.'
+      header: '사용자지정 생상 (Custom colors)',
+      desc: '`color`, `track-color`와 `thumb-color` prop들을 이용해 슬라이더의 색상을 정의할 수 있습니다.'
     }
   }],
   props: {
-    step: 'If greater than 0, sets step interval for ticks',
-    thumbColor: 'Sets the thumb and thumb label color',
-    thumbLabel: 'Show thumb label',
+    step: '0 보다 크면 스텝 간격으로 쓰임',
+    thumbColor: 'Thumb과 thumb 레이블 색상',
+    thumbLabel: 'thumb 레이블을 표시',
     ticks: '',
     trackColor: 'Sets the track fill color'
   }

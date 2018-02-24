@@ -8,7 +8,11 @@
     template(slot="item" slot-scope="{ item }")
       div(class="ma-2")
         div(class="pa-2 grey lighten-4 d-flex align-top")
-          v-flex(v-for="header in headers" :key="header.value" :class="[`xs${header.size}`, `text-xs-${header.align}`]")
+          v-flex(
+            v-for="header in headers"
+            :class="[`xs${header.size}`, `text-xs-${header.align}`]"
+            :key="header.value"
+          )
             div(class="header grey--text text--darken-1") {{ genHeaderName(header.value, item) }}
             div(:class="['mono', header.value]") {{ item[header.value] }}
         div(class="pa-2 grey lighten-3 grey--text text--darken-2 d-flex")
@@ -71,7 +75,7 @@
             }
           }
 
-          newItem.description = this.genDescription(item.name, item)
+          newItem.description = this.genDescription(item.name || item, item)
 
           return newItem
         })
@@ -120,6 +124,9 @@
         return `${prepend}${description}`
       },
       genName (name, item) {
+        // This is so that camel-cased functions remain so in the API list
+        if (item.signature) return name
+
         name = name || ''
         name = name.replace(/([A-Z])/g, (g) => `-${g[0].toLowerCase()}`)
         const sync = (item.sync && '.sync') || ''

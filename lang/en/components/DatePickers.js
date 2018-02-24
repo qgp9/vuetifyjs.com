@@ -5,7 +5,7 @@ export default {
   examples: [{
     dateLight: {
       header: 'Date pickers',
-      desc: 'Date pickers come in two orientation variations, portrait **(default)** and landscape.'
+      desc: 'Date pickers come in two orientation variations, portrait **(default)** and landscape. By default they are emitting `input` event when the day (for date picker) or month (for month picker), but with **reactive** prop they can update the model even after clicking year/month.'
     },
     dateColorable: {
       header: 'Date pickers - Colors',
@@ -105,8 +105,8 @@ export default {
       min: 'Minimum allowed date/month',
       max: 'Maximum allowed date/month',
       pickerDate: 'Displayed year/month',
-      appendIcon: 'Sets the icon for next month/year button',
-      prependIcon: 'Sets the icon for previous month/year button',
+      nextIcon: 'Sets the icon for next month/year button',
+      prevIcon: 'Sets the icon for previous month/year button',
       readonly: 'Makes the picker readonly (doesnt\'t allow to select new date or navigate through months/years)',
       scrollable: 'Allows changing displayed month with mouse scroll',
       showCurrent: 'Toggles visibility of the current date/month outline or shows the provided date/month as a current'

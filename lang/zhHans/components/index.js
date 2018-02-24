@@ -16,16 +16,13 @@ import ExpansionPanels from './ExpansionPanels'
 import FloatingActionButtons from './FloatingActionButtons'
 import Footer from './Footer'
 import Forms from './Forms'
-import Grid from './Grid'
-import GridLists from './GridLists'
 import Icons from './Icons'
 import Lists from './Lists'
-import Jumbotrons from './Jumbotrons'
+// import Jumbotrons from './Jumbotrons'
 import Menus from './Menus'
 import NavigationDrawers from './NavigationDrawers'
 import Paginations from './Paginations'
 import Parallax from './Parallax'
-import Pickers from './Pickers'
 import Progress from './Progress'
 import SelectionControls from './SelectionControls'
 import Selects from './Selects'
@@ -57,16 +54,13 @@ export default {
   FloatingActionButtons,
   Footer,
   Forms,
-  Grid,
-  GridLists,
   Icons,
   Lists,
-  Jumbotrons,
+  // Jumbotrons,
   Menus,
   NavigationDrawers,
   Paginations,
   Parallax,
-  Pickers,
   Progress,
   SelectionControls,
   Selects,

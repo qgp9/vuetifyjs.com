@@ -19,7 +19,16 @@ export default [
     icon: 'mdi-page-layout-body',
     items: [
       { name: 'PreDefined', title: 'Pre-defined layouts', badge: 'updated' },
-      { name: 'PremadeThemes', title: 'Pre-made themes', badge: 'updated' },
+      { name: 'PreMadeThemes', title: 'Pre-made themes', badge: 'updated' },
+      {
+        title: 'Grid & breakpoints',
+        group: 'grid',
+        namespace: 'layout',
+        items: [
+          { name: 'grid', title: 'Grid' },
+          { name: 'grid-lists', title: 'Grid lists' }
+        ]
+      },
       { name: 'Spacing', title: 'Spacing' },
       { name: 'Alignment', title: 'Text alignment' },
       { name: 'Display', title: 'Display' },
@@ -43,6 +52,7 @@ export default [
     group: 'motion',
     icon: 'mdi-clock-fast',
     items: [
+      { name: 'Scrolling', title: 'Scrolling', badge: 'new' },
       { name: 'Transitions', title: 'Transitions' }
     ]
   },
@@ -69,15 +79,6 @@ export default [
       { name: 'dividers', title: 'Dividers' },
       { name: 'expansion-panels', title: 'Expansion panels' },
       { name: 'footer', title: 'Footer' },
-      {
-        title: 'Grid & breakpoints',
-        group: 'grid',
-        namespace: 'components',
-        items: [
-          { name: 'grid', title: 'Grid' },
-          { name: 'grid-lists', title: 'Grid lists' }
-        ]
-      },
       {
         title: 'Inputs & controls',
         group: '(forms|selects|selection|text-fields)',
@@ -127,27 +128,8 @@ export default [
       { name: 'touch-support', title: 'Touch support' }
     ]
   },
-  { name: 'store/Index', title: 'Store', icon: 'mdi-store', badge: 'Sale: 15% - 40% Off', color: 'red lighten-3' },
   { divider: true },
   { header: 'Additional resources' },
-  {
-    title: 'Ecosystem',
-    group: 'ecosystem',
-    icon: 'mdi-earth',
-    items: [
-      { href: 'https://github.com/vuetifyjs/awesome-vuetify', title: 'Awesome Vuetify', target: '_blank', badge: 'new' }
-    ]
-  },
-  {
-    title: 'Community',
-    group: 'community',
-    icon: 'mdi-account-multiple',
-    items: [
-      { href: 'https://chat.vuetifyjs.com/', title: 'Chat and support', target: '_blank' },
-      { href: 'https://github.com/vuetifyjs/vuetify/issues', title: 'Issue board', target: '_blank' },
-      { href: 'https://stackoverflow.com/search?q=vuetify', title: 'Stack overflow', target: '_blank' }
-    ]
-  },
   {
     title: 'Advanced tutorials',
     group: 'guides',

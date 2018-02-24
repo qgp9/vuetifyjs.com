@@ -219,6 +219,9 @@
 <style lang="stylus">
   @import '~vuetify/src/stylus/settings/_variables.styl'
 
+  #snackbars .component-example .application--example
+    z-index: auto
+
   .component-example
     // margin-bottom: 32px
 
@@ -226,6 +229,7 @@
       position: relative
       transition: .3s $transition.swing
       overflow: hidden
+      z-index: 0
 
       > div,
       > form,

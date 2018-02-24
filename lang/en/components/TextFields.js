@@ -61,6 +61,10 @@ export default {
       header: 'Box style',
       desc: 'Text-fields can be used with an alternative box design. Append and prepend icon props are **not** supported in this mode.'
     },
+    solo: {
+      header: 'Solo style',
+      desc: 'Text-fields can be used with an alternative solo design.'
+    },
     customColors: {
       header: 'Custom colors',
       desc: 'You can optionally change a text-field into any color in the Material design palette. Below is an example implementation of a custom form with validation.'
@@ -87,5 +91,9 @@ export default {
     textarea: 'Textarea text-field with alternate style',
     toggleKeys: 'Array of key codes that will toggle the input (if it supports toggling)',
     type: 'Sets input type'
+  },
+  events: {
+    change: 'Mixins.Input.events.change',
+    'update:error': 'Mixins.Input.events.update:error'
   }
 }

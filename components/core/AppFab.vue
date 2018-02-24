@@ -1,5 +1,6 @@
 <template lang="pug">
   v-fab-transition
+    //- style="bottom: 52px"
     v-btn(
       fab
       dark

@@ -1,3 +1,3 @@
 export default {
-  'input': 'The updated bound model'
+  'input': '연결된 모델을 업데이트 (The updated bound model)'
 }

@@ -17,8 +17,7 @@ import ExpansionPanels from './ExpansionPanels'
 import FloatingActionButtons from './FloatingActionButtons'
 import Footer from './Footer'
 import Forms from './Forms'
-import Grid from './Grid'
-import GridLists from './GridLists'
+import HelpMeChoose from './HelpMeChoose'
 import Icons from './Icons'
 import Lists from './Lists'
 import Jumbotrons from './Jumbotrons'
@@ -34,6 +33,7 @@ import Snackbars from './Snackbars'
 import Steppers from './Steppers'
 import Subheaders from './Subheaders'
 import Tabs from './Tabs'
+import TemplateList from './TemplateList'
 import TextFields from './TextFields'
 import TimePickers from './TimePickers'
 import Toolbars from './Toolbars'
@@ -59,8 +59,7 @@ export default {
   FloatingActionButtons,
   Footer,
   Forms,
-  Grid,
-  GridLists,
+  HelpMeChoose,
   Icons,
   Lists,
   Jumbotrons,
@@ -76,6 +75,7 @@ export default {
   Steppers,
   Subheaders,
   Tabs,
+  TemplateList,
   TextFields,
   TimePickers,
   Toolbars,

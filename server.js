@@ -72,7 +72,6 @@ const serve = (path, cache) => express.static(resolve(path), {
 app.use(cookieParser())
 app.use(compression({ threshold: 0 }))
 app.use(favicon('./static/favicon.ico'))
-app.use('/example-source', serve('./examples', true)) // TODO: This should be a regex to serve anything with an extension
 app.use('/static/manifest.json', serve('./manifest.json', true))
 app.use('/static', serve('./static', true))
 app.use('/public', serve('./public', true))
@@ -98,9 +97,10 @@ Object.keys(redirects).forEach(k => {
 // if your app involves user-specific content, you need to implement custom
 // logic to determine whether a request is cacheable based on its url and
 // headers.
-// 1-second microcache.
+// 10-minute microcache.
 // https://www.nginx.com/blog/benefits-of-microcaching-nginx/
-app.use(microcache.cacheSeconds(1, req => useMicroCache && req.originalUrl))
+const isStore = req => !!req.params && !!req.params[1] && req.params[1].includes('store')
+const cacheMiddleware = microcache.cacheSeconds(10 * 60, req => useMicroCache && !isStore(req) && req.originalUrl)
 
 function render (req, res) {
   const s = Date.now()
@@ -128,7 +128,10 @@ function render (req, res) {
     title: 'Vuetify', // default title
     url: req.url,
     lang: req.params[0],
-    res
+    res,
+    hreflangs: availableLanguages.reduce((acc, lang) => {
+      return acc + `<link rel="alternate" hreflang="${lang}" href="https://${req.hostname}/${lang}${req.params[1]}" />`
+    }, '')
   }
   renderer.renderToString(context, (err, html) => {
     if (err) {
@@ -141,11 +144,11 @@ function render (req, res) {
   })
 }
 
-const languageRegex = /^\/([a-z]{2,3}|[a-z]{2,3}-[a-zA-Z]{4}|[a-z]{2,3}-[A-Z]{2,3})(?:\/.*)?$/
+const languageRegex = /^\/([a-z]{2,3}|[a-z]{2,3}-[a-zA-Z]{4}|[a-z]{2,3}-[A-Z]{2,3})(\/.*)?$/
 
 app.get(languageRegex, isProd ? render : (req, res) => {
   readyPromise.then(() => render(req, res))
-})
+}, cacheMiddleware)
 
 // 302 redirect for no language
 app.get('*', (req, res) => {

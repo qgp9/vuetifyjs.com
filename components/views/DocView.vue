@@ -9,26 +9,26 @@
           div(slot="sup")
             slot(name="sup")
         slot(:namespace="namespace")
-        app-footer
+        app-footer-alt
       v-flex(md3 hidden-sm-and-down)
         app-table-of-contents(
           :threshold="50"
           :offset="85"
           :items="computedToc"
         )
-          app-ad(slot="top")
+          app-ad
 </template>
 
 <script>
   import AppAd from '@/components/core/AppAd'
-  import AppFooter from '@/components/core/AppFooter'
+  import AppFooterAlt from '@/components/core/AppFooterAlt'
   import AppTableOfContents from '@/components/core/AppTableOfContents'
   import { camel } from '@/util/helpers'
 
   export default {
     components: {
-      AppFooter,
       AppAd,
+      AppFooterAlt,
       AppTableOfContents
     },
 
@@ -63,21 +63,12 @@
 
         const toc = `${this.namespace}.toc`
 
-        return this.$te(toc) ? this.$t(toc) : []
+        return this.$te(toc)
+          ? this.$t(toc)
+          : this.$te(toc, 'en')
+            ? this.$t(toc, 'en')
+            : []
       }
     }
   }
 </script>
-
-<style lang="stylus">
-  @import '~vuetify/src/stylus/settings/_variables.styl'
-
-  .page
-    max-width: 1185px !important
-    padding-top: 75px
-    padding-bottom: 0
-    transition: .2s $transition.fast-out-slow-in
-
-    section
-      margin-bottom: 48px
-</style>

@@ -1,10 +1,10 @@
 export default {
   Any: 'Any',
-  Array: 'Array',
-  Boolean: 'Boolean',
-  Function: 'Function',
-  Number: 'Number',
-  Object: 'Object',
-  String: 'String',
+  Array: '배열',
+  Boolean: '부울',
+  Function: '함수',
+  Number: '숫자',
+  Object: '객체',
+  String: '문자열',
   undefined: 'undefined'
 }

@@ -3,13 +3,13 @@
 import QuickStart from './QuickStart'
 // TODO: import Roadmap from './Roadmap'
 // TODO: import SponsorsAndBackers from './SponsorsAndBackers'
-// TODO: import WhyVuetify from './WhyVuetify'
+import WhyVuetify from './WhyVuetify'
 
 export default {
   // TODO: Contributing,
   // TODO: FrequentlyAskedQuestions,
-  QuickStart
+  QuickStart,
   // TODO: Roadmap,
   // TODO: SponsorsAndBackers,
-  // TODO: WhyVuetify
+  WhyVuetify
 }

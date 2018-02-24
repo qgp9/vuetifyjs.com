@@ -1,6 +1,6 @@
 export default {
   props: {
-    dark: 'Applies the dark theme variant',
-    light: 'Applies the light theme variant'
+    dark: '다크 테마를 적용',
+    light: '라이트 테마를 적용'
   }
 }
